@@ -1,7 +1,7 @@
 import * as path from "path";
-import * as ffi from "ffi";
+import * as ffi from "ffi-napi";
 import * as os from "os";
-const ref = require("ref");
+const ref = require("ref-napi");
 
 let HWND = 0;
 

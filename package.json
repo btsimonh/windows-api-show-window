@@ -1,6 +1,6 @@
 {
   "name": "windows-api-show-window",
-  "version": "0.1.2",
+  "version": "0.1.22",
   "description": "Call ShowWindow from node via ffi",
   "main": "src/index.js",
   "scripts": {
@@ -31,8 +31,8 @@
   },
   "homepage": "https://github.com/oledid-js/windows-api-show-window#readme",
   "dependencies": {
-    "ref": "github:btsimonh/ref#node-12",
-    "ffi": "github:btsimonh/node-ffi#node-12"
+    "ref-napi": "https://github.com/btsimonh/ref-napi.git",
+    "ffi-napi": "https://github.com/btsimonh/node-ffi-napi.git"
   },
   "devDependencies": {
     "@types/ffi": "0.0.19",
