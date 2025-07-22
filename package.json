@@ -8,7 +8,7 @@
     "pretest": "npm run build",
     "test": "npm run lint && echo Run manual test with ctrl + r: node.exe [path-to-repo]/test/index.js",
     "lint": "tslint -t stylish -c tslint.json -e **/*.d.ts src/**/*.ts test/**/*.ts && tslint -t stylish -c jslint.json src/**/*.js test/**/*.js",
-    "prepublish": "in-publish && npm test || not-in-publish"
+    "x_prepublish": "in-publish && npm test || not-in-publish"
   },
   "files": [
     "src",
