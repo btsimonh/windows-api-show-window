@@ -34,8 +34,8 @@
   },
   "homepage": "https://github.com/oledid-js/windows-api-show-window#readme",
   "dependencies": {
-    "ffi-napi": "^3.0.1",
-    "ref-napi": "^2.0.1"
+    "ref-napi": "https://github.com/btsimonh/ref-napi.git",
+    "ffi-napi": "https://github.com/btsimonh/node-ffi-napi.git"
   },
   "devDependencies": {
     "@types/ffi-napi": "2.4.3",
